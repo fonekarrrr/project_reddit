@@ -42,12 +42,35 @@ body {
 	margin:10px 40px;
 }
 
+#create {
+	border:none;
+	margin-bottom:5px;
+}
+
+#search {
+	border:none;
+	margin-bottom:20px;
+}
+
+#subreddits {
+	border:none;
+}
+
 .menu-item {
 	width:160px;
-	height:30px;
+	height:25px;
 	background-color:#95a5a6;
 	padding:10px;
 	color: white;
 	text-align:center;
-	border-bottom:2px solid #3d3;
+	border-bottom:2px solid #7f8c8d;
 }
+
+.menu-item:hover {
+	background-color:#7f8c8d;
+}
+
+.left {
+	width:20px;
+	height:20px;
+	transform:;}
