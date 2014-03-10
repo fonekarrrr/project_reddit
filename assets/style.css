@@ -30,13 +30,14 @@ body {
 	height:50px;
 	padding:20px;
 	position:fixed;
+	z-index:2;
 }
 
 #side-bar {
 	float:left;
 	margin:10px 40px;
 	position:absolute;
-	top:130px;
+	top:120px;
 }
 
 #content {
@@ -89,4 +90,13 @@ body {
 	right:0;
 	top:25%;
 	margin-right:-7px;
+}
+
+#menu-tab {
+	float:left;
+	z-index:10;
+	margin-left:70px;
+	width:60px;
+	height:60px;
+	position:fixed;
 }
